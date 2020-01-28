@@ -1,0 +1,17 @@
+.dashboard-top{
+  background-color: #083349;
+  font-family: 'Maax';
+}
+
+/* .gift{
+    font-size: 13px;
+line-height: 18px;
+text-align: right;
+letter-spacing: 0.557143px;
+text-transform: uppercase;
+color: #23A4EF;
+} */
+
+#berger{
+    display: none;
+}

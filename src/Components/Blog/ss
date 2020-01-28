@@ -1,0 +1,83 @@
+import React, { Component } from "react";
+import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBBadge, MDBCardTitle, MDBCardText } from "mdbreact";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import "../../App.css";
+import "./index.css"
+import NavBar from "../NavBar";
+import Footer from "../Footer";
+import blog2 from "../../Images/blog-image.png"
+
+class Blog extends Component {
+  state = {};
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <div>
+          <MDBContainer className="blog-head" >
+            <MDBRow>
+              <MDBCol lg="6" sm="12" md="6" >
+                <br /><br /><br /><br />
+                <div className="head-title" >
+                  <h2 className="blog-title" >
+                    Shazam!
+                    How Editor Michel Aller Transformed into a
+                    Blockbuster Editor
+                      </h2>
+                  <MDBBadge className="blog-badge" pill color="light">
+                    <span>Accounting</span>
+                  </MDBBadge>
+                  <span className="blog-read-time" >5 min read</span>
+                  <br/><br/>
+                  <p className="blog-text" >
+                  Neuroscience is a multidisciplinary science that is concerned with the study of the structure and function...
+                  </p>
+                  <img src={require("../../Images/blog-blue-arrow.png")} />
+                </div>
+              </MDBCol>
+            </MDBRow>
+          </MDBContainer>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div>
+          <MDBContainer className="blog-head" >
+            <MDBRow>
+              <MDBCol lg="6" sm="12" md="6" >
+                <br /><br /><br /><br />
+                <div className="head-title" >
+                  <h2 className="blog-title" >
+                    Shazam!
+                    How Editor Michel Aller Transformed into a
+                    Blockbuster Editor
+                      </h2>
+                  <MDBBadge className="blog-badge" pill color="light">
+                    <span>Accounting</span>
+                  </MDBBadge>
+                  <span className="blog-read-time" >5 min read</span>
+                  <br/><br/>
+                  <p className="blog-text" >
+                  Neuroscience is a multidisciplinary science that is concerned with the study of the structure and function...
+                  </p>
+                  <img src={require("../../Images/blog-blue-arrow.png")} />
+                </div>
+              </MDBCol>
+            </MDBRow>
+          </MDBContainer>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+        <Footer />
+      </div>
+    );
+  }
+}
+
+export default Blog;

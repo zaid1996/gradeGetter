@@ -1,0 +1,183 @@
+.tutor-top-div {
+  background-image: url("../../Images/TutorLandMainImg.png");
+  background-size: cover;
+  background-clip: content-box;
+  /* opacity: 0.5;
+    filter: alpha(opacity=50); */
+}
+
+@media only screen and (max-width: 992px) {
+  .tutor-land-input-main-div {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .tutor-land-features-main-div {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .tutor-land-jobs-main-div {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .tutor-land-input-main-div {
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 70px;
+  }
+  .tutor-land-features-main-div {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+  }
+  .tutor-land-jobs-main-div {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+  }
+}
+.tutor-land-input-div {
+  background: rgba(255, 255, 255, 0.285976);
+  backdrop-filter: blur(8.15485px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+  height: 65px;
+  margin-top: 30px;
+}
+.tutor-land-input {
+  background: none;
+  border: none;
+  width: 85%;
+  display: inline-block;
+  outline: none;
+  margin-left: 15%;
+  color: white;
+  font-family: Maax;
+  font-size: 20px;
+  line-height: 25px;
+}
+::placeholder {
+  color: white;
+  margin-left: 5px;
+}
+
+.tutor-land-input-img {
+  position: absolute;
+  display: inline-block;
+}
+
+.tutor-land-checkbox-line {
+  font-family: Maax;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.tutor-land-feature-card-div {
+  width: 360px;
+  height: 366px;
+  /* background-color: gray; */
+  box-shadow: 0px 9px 45px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+}
+.tutor-land-Jobs-card-desktop {
+  width: 100%;
+  box-shadow: 0px 9px 45px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  padding: 30px;
+  display: none;
+}
+
+@media only screen and (min-width: 993px) {
+  .tutor-land-Jobs-card-desktop {
+    
+    display: block;
+  }
+  .tutor-land-Jobs-card-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .tutor-land-Jobs-card-desktop {
+    
+    display: none;
+  }
+  .tutor-land-Jobs-card-mobile {
+    display: block;
+  }
+}
+.tutor-land-jobs-card-rows {
+  height: 33%;
+}
+.tutor-land-jobs-card-rows-img {
+  height: 80px;
+  width: 80px;
+}
+
+.tutor-land-jobs-card-rows-name {
+  font-family: Maax-Bold;
+  font-size: 28px;
+  line-height: 31px;
+  /* identical to box height */
+
+  color: #203662;
+  margin-top: 10px;
+}
+.tutor-land-jobs-card-rows-from {
+  font-family: Maax;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #203662;
+}
+.tutor-land-jobs-card-rows-img-arrow {
+  height: 68px;
+  width: 85px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.tutor-land-jobs-card-rows-text-right {
+  font-family: Maax;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #203662;
+}
+.tutor-land-Jobs-card-mobile {
+  width: 80%;
+  box-shadow: 0px 9px 45px rgba(0, 0, 0, 0.08);
+  margin-top: 30px;
+  padding: 30px;
+  margin-left: 10%;
+}
+.tutor-land-Jobs-card-mobile-img {
+  height: 70px;
+  width: 70px;
+}
+.tutor-land-Jobs-card-mobile-name {
+  font-family: Maax-Bold;
+  font-size: 26px;
+  line-height: 29px;
+  margin-top: 10px;
+}
+.tutor-land-Jobs-card-mobile-from {
+  font-family: Maax;
+  font-size: 15px;
+  line-height: 17px;
+}
+.tutor-land-jobs-card-mobile-text-bottom {
+  font-family: Maax;
+  font-size: 15px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #203662;
+}

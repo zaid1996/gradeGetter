@@ -1,0 +1,308 @@
+.BG {
+    background-image: url("../Images/banda.png");
+  }
+  .forgotPasswordBG{
+    background-image: url("../Images/NewPasswordbg.png");
+
+  }
+  .signInBG{
+
+    background-image: url("../Images/NewPasswordbg.png");
+  }
+  
+  .colo {
+    width: "100%";
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .BG {
+      display: none;
+    }
+    
+    
+    .whenSmall {
+      display: none;
+    }
+  
+    .emailTXT {
+      text-align: center;
+      font-size: 22px;
+      font-family: "Maax-Bold";
+    }
+  
+    .signupTXT {
+      text-align: center;
+      font-size: 15px;
+      font-family: "Maax";
+    }
+    .marginLeftt {
+      margin-left: 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .whenBig {
+      display: none;
+    }
+    .uploadPicture{
+      display: none;
+    }
+    .emailTXT {
+      font-size: 35px;
+      font-family: "Maax-Bold";
+    }
+    .signupTXT {
+      font-size: 21px;
+      font-family: "Maax";
+    }
+  
+    .marginLeftt {
+      margin-left: 20px;
+    }
+  }
+  
+  .logoSecond {
+    height: 78px;
+    width: 100%;
+    box-shadow: 0px 0px 32px #ccc;
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .logoSecond,
+    .shortRow {
+      display: none;
+    }
+  }
+  
+  .radio_toolbar input, .gender_toolbar input[type="radio"] {
+      opacity: 0;
+      position: fixed;
+      width: 95%;
+      height: 80px;
+  }
+  textarea,textarea:active, 
+  input:active{
+    resize: none;
+      outline: none;
+      font-family:'Maax' ;
+  }
+  
+  ::placeholder{
+    font-family: 'Maax';
+    font-size: 18px;
+    padding: 10px;
+    opacity: 0.4;
+  }
+  
+  .radio_toolbar label, .gender_toolbar label {
+      display: inline-block;
+      width: 95%;
+      height: 58px;
+      background-color: #fafbfc;
+      font-family: 'Maax-Bold';
+      font-size: 22px;
+      text-align: center;
+      padding-top: 12px;
+      border: 2px solid #D8D8D8;
+      border-radius: 1px;
+  }
+  .radio_toolbar input[type="radio"]:checked + label, .gender_toolbar input[type="radio"]:checked + label{
+      background-color: #083349;
+      color: white;
+      
+  }
+  
+  .radio-toolbar input[type="radio"]:focus + label, .gender_toolbar input[type="radio"]:focus + label{
+      border: 2px dashed #444;
+  }
+  
+  .radio_toolbar input, .gender_toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 95%;
+    height: 80px;
+}
+textarea,textarea:active, 
+input:active{
+  resize: none;
+    outline: none;
+    font-family:'Maax' ;
+}
+
+.radio_toolbar label, .gender_toolbar label {
+    display: inline-block;
+    width: 95%;
+    height: 58px;
+    background-color: #fafbfc;
+    font-family: 'Maax-Bold';
+    font-size: 22px;
+    text-align: center;
+    padding-top: 12px;
+    border: 2px solid #D8D8D8;
+    border-radius: 1px;
+}
+.radio_toolbar input[type="radio"]:checked + label, .gender_toolbar input[type="radio"]:checked + label{
+    background-color: #083349;
+    color: white;
+    
+}
+
+.radio-toolbar input[type="radio"]:focus + label, .gender_toolbar input[type="radio"]:focus + label{
+    border: 2px dashed #444;
+}
+
+
+.calenderRadio input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 95%;
+  height: 80px;
+}
+
+
+.calenderRadio label {
+  display: inline-block;
+  width: 150px;
+  height: 140px;
+  background-color: #fafbfc;
+  font-family: 'Maax-Bold';
+  font-size: 22px;
+  text-align: center;
+  padding-top: 12px;
+  border: 2px solid #D8D8D8;
+  border-radius: 1px;
+}
+
+
+.calenderRadio input[type="radio"]:checked + label   {
+  background-color: #083349;
+  color: white;
+}
+
+
+
+
+
+.calenderRadio input[type="radio"]:focus + label{
+  border: 2px dashed #444;
+}
+
+.topDate{
+ font-family:'Maax-Bold'; 
+ font-size:20px;
+
+
+}
+
+.midDate{
+  font-family: 'Maax-Bold';
+  font-size: 38px;
+  margin-top: -15px;
+
+}
+
+.endDate{
+
+  
+font-family: 'Maax';
+margin-top: -19px;
+font-size: 20px;
+  
+
+
+}
+
+
+.select_time_radio input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 95%;
+  height: 80px;
+}
+
+
+.select_time_radio  label {
+  display: inline-block;
+  width: 95%;
+  height: 100px;
+  background-color: #fafbfc;
+  font-family: 'Maax-Bold';
+  font-size: 22px;
+  text-align: center;
+  padding-top: 12px;
+  border: 2px solid #D8D8D8;
+  border-radius: 1px;
+}
+ .select_time_radio input[type="radio"]:checked + label{
+  background-color: #083349;
+  color: white;
+  
+}
+ .select_time_radio input[type="radio"]:focus + label{
+  border: 2px dashed #444;
+}
+.uploadBtn{
+  width:100%;
+}
+#uploadedImg{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  display: none;
+}
+#beforeUpload{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  
+}
+
+.inputPicture{
+  width: 95%;
+  padding:'70%';
+
+}
+
+.home-clients-div {
+  width: 89%;
+  height:90%;
+  /* background-color: gray; */
+  box-shadow: 0px 0px 32px #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 30px;
+}
+.home-clients-pp {
+  width: 70px;
+  height: 70px;
+  margin: 20px;
+  align-self: flex-end;
+}
+.home-clients-P {
+  margin-top: 45px;
+}
+.font-Maax {
+  font-family: Maax;
+}
+.font-Maax-Bold {
+  font-family: Maax-Bold;
+}
+.font-Maax-Medium {
+  font-family: Maax-Medium;
+}
+.font-Maax-Black {
+  font-family: Maax-Black;
+}
+.font-PN-Bold {
+  font-family: ProximaNova-Bold;
+}
+.font-PN-Regular {
+  font-family: ProximaNova-Regular;
+}
+.font-PN-Semibold {
+  font-family: ProximaNova-Semibold;
+}
+.home-client-date {
+  margin-left: 20px;
+}

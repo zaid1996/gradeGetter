@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.shadows{
+  box-shadow: 0px 0px 32px #e0dede
+
+}
+h3{
+  font-size:20px; 
+  font-weight: bold;
+  color: #083349;
+}
+
+.accordion__text {
+  
+  color: #083349;
+}
+h1{
+  font-size: 45px;
+  font-family: 'Maax-Bold';
+  color: #083349;
+}
+h2{
+  font-family: 'Maax-Medium';
+  color: #083349;
+}
+
+p
+{
+ font-family: 'Maax';
+ color: #083349;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #ffffff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .accordion:hover,
+.accordion .active {
+  background-color: #ffffff;
+} */
+
+/* Style the accordion content title */
+/* .accordion__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+} */
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}

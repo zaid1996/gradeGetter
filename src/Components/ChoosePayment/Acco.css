@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+/* Style the accordion section */
+.acco__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.shadows{
+  box-shadow: 0px 0px 32px #e0dede
+
+}
+h3{
+  font-size:20px; 
+  font-weight: bold;
+  color: #083349;
+}
+
+.acco__text {
+  
+  color: white;
+}
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.acco {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.acco:hover,
+.activeo {
+  background-color: #083349;
+}
+
+
+ .acco__title {
+  text-align: left;
+
+}
+
+/* Style the accordion chevron icon */
+.acco__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.acco__content {
+
+  background-color: transparent;
+  color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+/* Style the accordion content text */
+.acco__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}

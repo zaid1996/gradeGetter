@@ -1,0 +1,239 @@
+.blog-top{
+    background-color: #F9FAFB;
+}
+
+.blog-top h1{
+font-family: 'Maax';
+font-size: 45px;
+line-height: 57px;
+color: #203662;
+}
+
+.blog-top p{
+    font-family: Maax;
+font-size: 18px;
+line-height: 22px;
+color: #203662;
+    }
+
+.blog-head{
+    background-image: url("../../Images/blog-head.png");
+    background-size: cover;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+}
+
+.head-title{
+    background-color: white;
+    margin-left: 2%;
+    padding: 6%;
+    width: 100%;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 20px #0000003b;
+}
+
+.head-title-article{
+    background-color: white;
+    margin-left: -30%;
+    padding: 6%;
+    width: 100%;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 20px #0000003b;
+}
+
+
+.blog-title{
+    font-family: 'Maax';
+    font-size: 28px;
+    line-height: 37px;
+    color: #203662;
+    font-weight: bold;
+    width: 75%;
+}
+
+.blog-badge span{
+    font-family: 'Maax';
+    font-size: 12px;
+    line-height: 13px;
+    /* identical to box height */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #203662;
+}
+
+.blog-read-time{
+margin-left: 4%;
+font-family: 'Maax';
+font-size: 13px;
+line-height: 19px;
+color: #7B88A0;
+}
+
+.blog-text{
+width: 80%;   
+font-family: 'Maax';
+font-size: 15px;
+line-height: 22px;
+color: #7B88A0;
+}
+
+.cardBoxblog{
+    box-shadow: 0px 0px 32px #ccc;
+    background-color: #F4F6F7;
+    z-index: 1;
+    position: relative;
+    margin-top: -170px;
+    margin-left: 30px;
+    height: 330px;
+    width:540px;
+  }
+  
+  .cardTitleblog{
+  
+    font-size: 18px;
+    font-family: Maax-Medium;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .cardTexttblog{
+    font-size: 14px;
+    font-family: Maax;
+    margin-top: -10px;
+    margin-left: 20px;
+  }
+  body {
+    margin: 0px;
+}
+#canvas {
+    width: 80%;
+    height: 400px;
+    padding: 10px;
+  box-sizing: border-box;
+}
+
+#overlapping {
+    padding: 2%;
+    position: absolute;
+    float: left;
+    left: 6%;
+    top: 50%;
+    width: 75%;
+    height: 70%;
+    background: white;
+    box-shadow: 0px 0px 20px #0000003b;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .bb{
+        margin-top: 100px;
+    }
+
+}
+
+
+.home-top-div {
+    background-color: #083349;;
+  }
+  @media only screen and (max-width: 992px) {
+    .home-top-price-img {
+      display: none;
+    }
+  
+    .home-top-company-logos {
+      height: 23px;
+      margin-top: 20px;
+    }
+    .home-top-input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .home-top-button {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .home-top-company-logos {
+      height: 28px;
+      margin-top: 40px;
+    }
+    .home-top-input {
+      width: 65%;
+    }
+    .home-top-button {
+      width: 35%;
+      margin-top: -10px;
+    }
+  }
+  
+  .nav-bar-logo {
+    height: 55px;
+  }
+  
+  @media only screen and (min-width: 576px) {
+    .home-top-row {
+      margin-top: 120px;
+    }
+    .home-input-top {
+      width: 80%;
+    }
+  }
+
+.blog-category{
+    list-style: none;
+}
+
+.blog-category li {
+    display: inline-block;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+    width: 6%;
+    text-align: center;
+}
+
+.categories .nav-link{
+    color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.categories .nav-link:focus{
+    background-color: #8080808c;
+    font-weight: bold;
+    color: #203662;
+}
+
+  .article-person-name{
+    font-family: 'Maax';
+    font-size: 18px;
+    line-height: 20px;
+    color: #203662;
+    font-weight: bold;
+  }
+
+  .article-text{
+    font-size: 15px;
+    line-height: 30px;
+    color: #203662;
+  }
+
+  .article-heading{
+    font-family: Maax;
+    font-size: 28px;
+    line-height: 48px;
+    color: #203662;
+    font-weight: bold;
+  }
+
+  .article-profile{
+      background-color: white;
+      box-shadow: 0px 0px 20px #0000003b;
+      height: 220px;
+  }
+
+  .article-footer{
+    background: #4285f405;
+  }

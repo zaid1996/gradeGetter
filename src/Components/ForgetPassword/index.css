@@ -1,0 +1,67 @@
+.BG {
+    background-image: url("../../Images/NewPasswordbg.png");
+  }
+  
+  .colo {
+    width: "100%";
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .BG {
+      display: none;
+    }
+    .whenSmall {
+      display: none;
+    }
+  
+    .emailTXT {
+        text-align: center;
+      font-size: 22px;
+      font-family: "Maax-Bold";
+    }
+  
+    .signupTXT {
+      text-align: center;
+      font-size: 15px;
+      font-family: "Maax";
+    }
+    .marginLeftt{
+          margin-left: 0px; 
+  
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .emailTXT {
+      font-size: 35px;
+      font-family: "Maax-Bold";
+    }
+    .signupTXT {
+      font-size: 21px;
+      font-family: "Maax";
+    }
+
+  
+  
+    .marginLeftt{
+      margin-left: 20px; 
+  
+  }
+  
+  }
+  
+  .logoSecond {
+    height: 78px;
+    width: 100%;
+    box-shadow: 0px 0px 32px #ccc;
+  }
+  
+  @media only screen and (min-width: 993px) {
+    .logoSecond,
+    .shortRow {
+      display: none;
+    }
+  }
+  
+  
+  
